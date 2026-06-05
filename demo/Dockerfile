@@ -1,6 +1,5 @@
 # 1. 자바 17 경량화 실행 환경 이미지 사용
-FROM openjdk:17-jdk-alpine
-
+FROM eclipse-temurin:17-jre-alpine
 # 2. 컨테이너 내부 작업 디렉토리 설정
 WORKDIR /app
 
